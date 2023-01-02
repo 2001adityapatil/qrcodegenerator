@@ -1,0 +1,20 @@
+<%- include('header') -%>
+    <div class="cont">
+        <h2 style="text-align: center">Enter the URL</h2>
+        <form action="/" method="post">
+            <div class="justify-content-center d-flex">
+                <div class="input-group mb-3 w-25" >
+                    <input type="text" name="text1" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+            </div>
+            <div class="justify-content-center d-flex">
+                <input type="submit" class="btn btn-success" value="submit">
+            </div>
+        </form>
+    </div>
+    <div class="ca">
+        <div class="card">
+            <img class="card-img-top" src="<%= url %>">
+        </div>
+    </div>
+<%- include('footer') -%>   
